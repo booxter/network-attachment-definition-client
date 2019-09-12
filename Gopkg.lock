@@ -406,7 +406,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:fff3d5b966cc9ef97041b861446e9d00224de41872393b82a9eb62e04894dfca"
+  digest = "1:c622ee490d976ae218c038942ea75544ebbb47afb4c24d9fd0e93b2a4a6fc250"
   name = "k8s.io/code-generator"
   packages = [
     "cmd/client-gen",
@@ -417,14 +417,15 @@
     "cmd/client-gen/generators/util",
     "cmd/client-gen/path",
     "cmd/client-gen/types",
+    "pkg/namer",
     "pkg/util",
   ]
   pruneopts = ""
-  revision = "1ae8250a766a78be82efa54a48139ea3148c9c08"
+  revision = "732c9ca86353b432e0cd118b64a941cadff73357"
 
 [[projects]]
   branch = "master"
-  digest = "1:ef304112ae16a07050b858a8e82ccfe9d9e0abc20aef1e55b6543b4b6df54eee"
+  digest = "1:a8c60fdc825be548a5cd9f599565d2c0dceff8d77a2b5ea00ff891e4aca33de5"
   name = "k8s.io/gengo"
   packages = [
     "args",
@@ -434,7 +435,7 @@
     "types",
   ]
   pruneopts = ""
-  revision = "51747d6e00da1fc578d5a333a93bb2abcbce7a95"
+  revision = "ebc107f98eab922ef99d645781b87caca01f4f48"
 
 [[projects]]
   branch = "master"
