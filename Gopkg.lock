@@ -116,6 +116,25 @@
   revision = "f2b4162afba35581b6d4a50d3b8f34e33c144682"
 
 [[projects]]
+  branch = "master"
+  digest = "1:b79a8da70b28bcd3e11643accdf555964c0fbc10acaf59a4e0b92b2adda63ccd"
+  name = "github.com/k8snetworkplumbingwg/network-attachment-definition-client"
+  packages = [
+    "pkg/apis/k8s.cni.cncf.io",
+    "pkg/apis/k8s.cni.cncf.io/v1",
+    "pkg/client/clientset/versioned",
+    "pkg/client/clientset/versioned/scheme",
+    "pkg/client/clientset/versioned/typed/k8s.cni.cncf.io/v1",
+    "pkg/client/clientset/versioned/typed/k8s.cni.cncf.io/v1/fake",
+    "pkg/client/informers/externalversions/internalinterfaces",
+    "pkg/client/informers/externalversions/k8s.cni.cncf.io",
+    "pkg/client/informers/externalversions/k8s.cni.cncf.io/v1",
+    "pkg/client/listers/k8s.cni.cncf.io/v1",
+  ]
+  pruneopts = ""
+  revision = "386d141f4c94392047e2361a44ad1573a577e666"
+
+[[projects]]
   digest = "1:0c0ff2a89c1bb0d01887e1dac043ad7efbf3ec77482ef058ac423d13497e16fd"
   name = "github.com/modern-go/concurrent"
   packages = ["."]
@@ -405,8 +424,7 @@
   revision = "9bea17718df8234c2556ffc1ea7416c13effc844"
 
 [[projects]]
-  branch = "master"
-  digest = "1:c622ee490d976ae218c038942ea75544ebbb47afb4c24d9fd0e93b2a4a6fc250"
+  digest = "1:1a4e6a8ed5a92c33df4bfc5766993eb9db2418de57bbebe58cd217bb161657bb"
   name = "k8s.io/code-generator"
   packages = [
     "cmd/client-gen",
@@ -421,7 +439,7 @@
     "pkg/util",
   ]
   pruneopts = ""
-  revision = "732c9ca86353b432e0cd118b64a941cadff73357"
+  revision = "ae218e2412520541341ca1a01aaeb90b592245e3"
 
 [[projects]]
   branch = "master"
@@ -466,6 +484,16 @@
   analyzer-version = 1
   input-imports = [
     "github.com/golang/glog",
+    "github.com/k8snetworkplumbingwg/network-attachment-definition-client/pkg/apis/k8s.cni.cncf.io",
+    "github.com/k8snetworkplumbingwg/network-attachment-definition-client/pkg/apis/k8s.cni.cncf.io/v1",
+    "github.com/k8snetworkplumbingwg/network-attachment-definition-client/pkg/client/clientset/versioned",
+    "github.com/k8snetworkplumbingwg/network-attachment-definition-client/pkg/client/clientset/versioned/scheme",
+    "github.com/k8snetworkplumbingwg/network-attachment-definition-client/pkg/client/clientset/versioned/typed/k8s.cni.cncf.io/v1",
+    "github.com/k8snetworkplumbingwg/network-attachment-definition-client/pkg/client/clientset/versioned/typed/k8s.cni.cncf.io/v1/fake",
+    "github.com/k8snetworkplumbingwg/network-attachment-definition-client/pkg/client/informers/externalversions/internalinterfaces",
+    "github.com/k8snetworkplumbingwg/network-attachment-definition-client/pkg/client/informers/externalversions/k8s.cni.cncf.io",
+    "github.com/k8snetworkplumbingwg/network-attachment-definition-client/pkg/client/informers/externalversions/k8s.cni.cncf.io/v1",
+    "github.com/k8snetworkplumbingwg/network-attachment-definition-client/pkg/client/listers/k8s.cni.cncf.io/v1",
     "k8s.io/apimachinery/pkg/api/errors",
     "k8s.io/apimachinery/pkg/apis/meta/v1",
     "k8s.io/apimachinery/pkg/labels",
